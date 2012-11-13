@@ -288,7 +288,7 @@ do
 	s)
 		options_found=1
 		# checking for a script update, and notifying. no actual update going on here.
-		rsvers=$(curl --silent https://raw.github.com/wavrunrx/OpenELEC_Dev/master/openelec-nightly_latest.sh | grep "VERSION=" | grep -v grep | sed 's/[^0-9]*//g')
+		rsvers=$(curl --silent https://raw.github.com/jdogweb/OpenELEC_Dev/master/openelec-nightly_latest.sh | grep "VERSION=" | grep -v grep | sed 's/[^0-9]*//g')
 		if [ "$rsvers" -gt "$VERSION" ] ;
 		then
 			echo
