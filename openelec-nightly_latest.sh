@@ -801,7 +801,7 @@ then
 				echo "*---| Updating OpenELEC_DEV:"
 				echo -ne "      Please Wait...\033[0K\r"
 				sleep 1
-				curl --silent -fksSL -A "`curl -V | head -1 | awk '{print $2}'`" http://bit.ly/TOf3qf > `dirname $0`/openelec-nightly_$rsvers.sh &
+				curl --silent -fksSL -A "`curl -V | head -1 | awk '{print $2}'`" http://bit.ly/RAMxu6 > `dirname $0`/openelec-nightly_$rsvers.sh &
 				pid=$!
 				spinner $pid
 				unset pid
