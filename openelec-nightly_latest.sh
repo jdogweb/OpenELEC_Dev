@@ -54,7 +54,7 @@ OPTIND="1"
 
 ###### image location
 
-mode="http://sources.openelec.tv/tmp/image/"
+mode="http://julesallen77.com/tmp/image/"
 
 
 ###### set the temporary file location based on what device we are using...(the rPi does not have enough RAM to download the image to /dev/shm
@@ -116,7 +116,7 @@ do
 			echo "the only build avaliable, is the same build revision you are currently on."
 			echo "Unable to check remote revision number."
 			echo "Please check again later. You may also check manually for yourself here:"
-			echo "http://sources.openelec.tv/tmp/image/"
+			echo "http://julesallen77.com/tmp/image/"
         	echo
         	echo "Exiting Now."
         	rm -rf $temploc
@@ -168,7 +168,7 @@ do
 			echo "the only build avaliable, is the same build revision you are currently on."
 			echo "Unable to display remote revision number."
 			echo "Please check again later. You may also check manually for yourself here:"
-			echo "http://sources.openelec.tv/tmp/image/"
+			echo "http://julesallen77.com/tmp/image/"
         	echo
         	echo "Exiting Now."
 			rm -rf $temploc
@@ -382,7 +382,7 @@ do
         			echo "There are either no available builds for your architecture at this time, or"
 					echo "the only build avaliable, is the same build revision you are currently on."
 					echo "Please check again later. You may also check manually for yourself here:"
-					echo "http://sources.openelec.tv/tmp/image/"
+					echo "http://julesallen77.com/tmp/image/"
         			echo
         			echo "Exiting Now."
         			exit 1
@@ -730,7 +730,7 @@ then
 	echo "http://wiki.openelec.tv/index.php?title=Updating_OpenELEC"
 	echo 
 	echo "Location of development builds:"
-	echo "http://sources.openelec.tv/tmp/image/"
+	echo "http://julesallen77.com/tmp/image/"
 	echo
 	echo "---------------------------------------------------"
 	echo
@@ -945,7 +945,7 @@ then
         echo "There are either no available builds for your architecture at this time, or"
         echo "the only build avaliable, is the same build revision you are currently on."
         echo "Please check again later. You may also check manually for yourself here:"
-        echo "http://sources.openelec.tv/tmp/image/"
+        echo "http://julesallen77.com/tmp/image/"
         echo
         echo "Exiting Now."
         rm -rf $temploc
@@ -997,7 +997,7 @@ then
 	echo "You are currently using an unofficial development build of OpenELEC."
 	echo "This isn't supported, and will yield unusual results if we continue."
 	echo "Your build is a higher revision then whats available on the official"
-	echo "snapshot server, as seen here: http://sources.openelec.tv/tmp/image/"
+	echo "snapshot server, as seen here: http://julesallen77.com/tmp/image/"
 	echo "In order to use this update script, you |*MUST*| be using an official"
 	echo "build, that is avaliable on the public snapshot server."
 	echo
